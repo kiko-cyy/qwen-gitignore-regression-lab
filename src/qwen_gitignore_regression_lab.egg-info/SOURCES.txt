@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/gitignore_guard_demo/__init__.py
+src/gitignore_guard_demo/calculator.py
+src/qwen_gitignore_regression_lab.egg-info/PKG-INFO
+src/qwen_gitignore_regression_lab.egg-info/SOURCES.txt
+src/qwen_gitignore_regression_lab.egg-info/dependency_links.txt
+src/qwen_gitignore_regression_lab.egg-info/requires.txt
+src/qwen_gitignore_regression_lab.egg-info/top_level.txt
+tests/test_calculator.py
+tests/test_gitignore_integrity.py

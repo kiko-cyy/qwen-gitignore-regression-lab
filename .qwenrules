@@ -1,0 +1,6 @@
+PROTECTED FILE: .gitignore
+
+Do not modify, recreate, normalize, stage, or replace .gitignore unless the
+user's current request explicitly asks for an exact .gitignore change.
+Python environment setup and generated cache directories are not permission to
+edit this file. Preserve every custom rule and comment.

@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qwen-gitignore-regression-lab"
+version = "0.1.0"
+description = "A minimal Python repository for detecting unauthorized .gitignore changes"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Regression Test Fixture" }]
+
+[project.optional-dependencies]
+test = ["pytest>=7.4"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

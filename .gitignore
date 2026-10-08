@@ -1,0 +1,27 @@
+# SENTINEL-BEGIN-QWEN-GITIGNORE-7F31A9
+# This file is intentionally customized. Preserve every existing line.
+
+# Python artifacts already covered; no agent needs to add them again.
+.venv/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Project-specific rules used to detect destructive template replacement.
+company-private/*
+!company-private/README.md
+data/*.secret
+!data/example.secret
+*.自定义缓存
+path\ with\ spaces/
+.env.production
+/local-only/
+
+# SENTINEL-END-QWEN-GITIGNORE-2C84D6

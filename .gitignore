@@ -25,3 +25,4 @@ path\ with\ spaces/
 /local-only/
 
 # SENTINEL-END-QWEN-GITIGNORE-2C84D6
+.hypothesis/

@@ -15,7 +15,7 @@ authors = [{ name = "Regression Test Fixture" }]
 test = ["pytest>=7.4"]
 
 [tool.pytest.ini_options]
-addopts = "-q"
+addopts = "-q -p no:libtmux"
 testpaths = ["tests"]
 
 [tool.setuptools.packages.find]

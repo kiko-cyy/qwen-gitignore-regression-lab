@@ -1,3 +1,7 @@
+"""Guard test ensuring the protected .gitignore fixture stays byte-identical."""
+
+from __future__ import annotations
+
 from pathlib import Path
 
 

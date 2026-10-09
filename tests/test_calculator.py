@@ -1,10 +1,18 @@
+"""Unit tests for the sample calculator package."""
+
+from __future__ import annotations
+
 import pytest
 
-from gitignore_guard_demo import add, divide
+from gitignore_guard_demo import add, divide, subtract
 
 
 def test_add() -> None:
     assert add(2, 3) == 5
+
+
+def test_subtract() -> None:
+    assert subtract(5, 3) == 2
 
 
 def test_divide() -> None:

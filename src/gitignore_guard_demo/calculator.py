@@ -6,6 +6,11 @@ def add(left: float, right: float) -> float:
     return left + right
 
 
+def subtract(left: float, right: float) -> float:
+    """Return the difference of two numbers."""
+    return left - right
+
+
 def divide(dividend: float, divisor: float) -> float:
     """Return a quotient and reject division by zero."""
     if divisor == 0:
